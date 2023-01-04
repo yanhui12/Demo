@@ -1,4 +1,3 @@
-// pages/index.vue
 <template>
   <div class="main-content">
     <PageHeader />
@@ -30,7 +29,7 @@ export default {
   }
 }
 </script>
-<style lang="less" scoped>
+<style >
 .main-content {
   width: 100%;
   height: 100%;

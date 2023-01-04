@@ -1,8 +1,7 @@
-// PageHeader.vue
 <template>
   <div class="page-header">
     <div class="logo">
-      <img src="~/assets/images/shout.svg" alt="">
+      <img src="~/assets/images/shout.svg" alt="" style="width:20px">
     </div>
     <div class="menu-tablet">
       <div v-for="item in menuList" :key="item.value" @click="clickSearch(item.value)" style="cursor: pointer;">
@@ -47,7 +46,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .page-header {
   position: absolute;
   top: 0;

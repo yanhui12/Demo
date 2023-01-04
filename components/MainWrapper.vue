@@ -1,4 +1,3 @@
-// MainWrapper.vue
 
 <template>
   <div class="main-wrapper">
@@ -54,7 +53,7 @@ export default {
   }
 }
 </script>
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .main-wrapper {
   position: relative;
   width: 100%;

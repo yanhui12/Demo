@@ -18,11 +18,11 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'vant/lib/index.css',
+    // 'vant/lib/index.css',
     'swiper/css/swiper.css' // 加入swiper样式
 ],
 plugins: [
-    '@/plugins/vant',
+    // '@/plugins/vant',
     {src: "@/plugins/swiper", ssr: false} // 组件这里配置下swiper插件
 ],
 

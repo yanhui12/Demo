@@ -15,7 +15,7 @@ const mutations = {
   },
   setMenuList(state, option) {
     console.log('setMenuList=====', state, option)
-    state.menuList = option
+    state.List = option
   }
 }
 export default {
